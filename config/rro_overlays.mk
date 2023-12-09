@@ -50,7 +50,12 @@ PRODUCT_PACKAGES += \
     TelecomOverlay \
     TelephonyProviderOverlay \
     WildlifeSettingsVpnOverlay2022 \
-    WildlifeSysuiVpnOverlay2022
+    WildlifeSysuiVpnOverlay2022 \
+    ClearCallingSettingsOverlay2022 \
+    CarrierSettingsConfigOverlay \
+    CarrierSettingsOverlay \
+    CarrierSettingsProviderOverlay \
+    CarrierSettingsSystemUIOverlay
 
 ifeq ($(TARGET_IS_PIXEL), true)
 PRODUCT_PACKAGES += \
