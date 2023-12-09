@@ -314,9 +314,6 @@ $(call inherit-product, vendor/evolution/config/version.mk)
 # Pixel Framework
 $(call inherit-product-if-exists, vendor/pixel-framework/config.mk)
 
-# Inherit from apex config
-$(call inherit-product, vendor/evolution/config/apex.mk)
-
 # Call the BCR setup
 $(call inherit-product, vendor/bcr/bcr.mk)
 
